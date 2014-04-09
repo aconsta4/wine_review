@@ -1,15 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  year: 1
-  winery: MyString
-  country: MyString
-  varietal: MyString
+  title: MyString
+  author: MyString
+  price: 9.99
 
 two:
-  name: MyString
-  year: 1
-  winery: MyString
-  country: MyString
-  varietal: MyString
+  title: MyString
+  author: MyString
+  price: 9.99
