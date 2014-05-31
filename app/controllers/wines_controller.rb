@@ -27,7 +27,7 @@ class WinesController < ApplicationController
   end
 
   def update
-      if @wine.update(book_params)
+      if @wine.update(wine_params)
         redirect_to @wine, notice: "#{@wine.name} was created!"
       else
         render :new
