@@ -14,9 +14,11 @@
 ActiveRecord::Schema.define(version: 20140409011705) do
 
   create_table "wines", force: true do |t|
-    t.string   "title"
-    t.string   "author"
-    t.decimal  "price"
+    t.string   "name"
+    t.integer  "year"
+    t.string   "winery"
+    t.string   "varietal"
+    t.string   "wine_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
